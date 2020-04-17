@@ -17,7 +17,7 @@ class App extends Component {
 
   componentDidHide () {}
 
-  componentDidCatchError () {}
+  componentDidCatchError (err) {}
 
   config = {
     pages: [

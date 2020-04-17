@@ -2,7 +2,7 @@
   "name": "hw_yds",
   "version": "1.0.0",
   "private": true,
-  "description": "胰岛素剂量矫正",
+  "description": "胰岛素剂量校正",
   "templateInfo": {
     "name": "default",
     "typescript": false,
