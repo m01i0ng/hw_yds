@@ -16,6 +16,18 @@ const Index = () => {
   const [msgShow, setMsgShow] = useState(false)
 
   useEffect(() => {
+    if (mode === 'unknown') {
+      if (bg && target && weight) {
+        compute()
+      }
+    } else {
+      if (bg && target && tdd) {
+        compute()
+      }
+    }
+  })
+
+  useEffect(() => {
     return () => {
       clear()
     }
@@ -92,7 +104,7 @@ const Index = () => {
     <View className='index'>
       {
         mode ? (
-          <View>
+          <View className='main'>
             <ClMessage message={msg} show={msgShow} type='warn'
                        onClose={() => setMsgShow(false)}/>
             <ClCard>
@@ -105,7 +117,7 @@ const Index = () => {
                             textColor='white'
                             borderColor='light-blue'/>
                 <ClFormItem required prop='bg'>
-                  <ClInput value={bg || ''} type='digit' clear adjustPosition
+                  <ClInput value={bg || ''} type='digit' adjustPosition
                            autoFocus
                            onChange={value => setBg(Number(value))}/>
                 </ClFormItem>
@@ -114,7 +126,7 @@ const Index = () => {
                             textColor='white'
                             borderColor='light-blue'/>
                 <ClFormItem required prop='bg'>
-                  <ClInput value={target || ''} type='digit' clear adjustPosition
+                  <ClInput value={target || ''} type='digit' adjustPosition
                            onChange={value => setTarget(Number(value))}/>
                 </ClFormItem>
                 <View style={{height: '10px'}}/>
@@ -124,7 +136,7 @@ const Index = () => {
                       <ClTitleBar title='患者体重(kg)' type='icon' icon='triangledownfill' iconColor='blue' bgColor='blue'
                                   textColor='white' borderColor='light-blue'/>
                       <ClFormItem required prop='weight' autoFocus>
-                        <ClInput value={weight || ''} type='digit' clear adjustPosition
+                        <ClInput value={weight || ''} type='digit' adjustPosition
                                  onChange={value => setWeight(Number(value))}/>
                       </ClFormItem>
                     </View>
@@ -133,7 +145,7 @@ const Index = () => {
                       <ClTitleBar title='日总剂量(IU)' type='icon' icon='triangledownfill' iconColor='blue' bgColor='blue'
                                   textColor='white' borderColor='light-blue'/>
                       <ClFormItem required prop='tdd'>
-                        <ClInput value={tdd || ''} type="digit" clear adjustPosition
+                        <ClInput value={tdd || ''} type="digit" adjustPosition
                                  onChange={value => setTdd(Number(value))}/>
                       </ClFormItem>
                     </View>
@@ -142,8 +154,6 @@ const Index = () => {
               </ClForm>
             </ClCard>
             <ClCard>
-              <ClButton shadow shape='round' long onClick={compute}>计算</ClButton>
-              <View style={{height: '10px'}}/>
               <ClButton shadow shape='round' bgColor='red' long onClick={clear}>清空</ClButton>
               <View style={{height: '10px'}}/>
               <ClButton shadow shape='round' long
@@ -152,11 +162,11 @@ const Index = () => {
           </View>
         ) : (
           <View className='mode-container'>
-            <ClCard>
-              <ClButton shadow shape="round" onClick={() => modeSwitch('unknown')} long>未知胰岛素总剂量</ClButton>
-              <View style={{height: '10px'}}/>
-              <ClButton shadow shape="round" long onClick={() => modeSwitch('known')}>已知胰岛素总剂量</ClButton>
-            </ClCard>
+            <ClButton size='large' shadow shape="round" text='未知胰岛素总剂量' onClick={() => modeSwitch('unknown')} long/>
+            <ClText size='normal' align='center'>1. 以前未使用胰岛素但已被确诊为糖尿病</ClText>
+            <ClText size='normal' align='center'>2. 之前胰岛素剂量未知/不清楚</ClText>
+            <View style={{height: '10px'}}/>
+            <ClButton size='large' shadow shape="round" text='已知胰岛素总剂量' long onClick={() => modeSwitch('known')}/>
           </View>
         )
       }

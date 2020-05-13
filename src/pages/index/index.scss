@@ -1,0 +1,21 @@
+.index {
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  .main {
+    width: 100%;
+  }
+
+  .mode-container {
+    width: 90%;
+
+    button {
+      text {
+        font-size: 50px;
+      }
+    }
+  }
+}
