@@ -1321,13 +1321,13 @@
     react-native-stylekit "^1.0.0"
     react-native-unimodules "^0.5.3"
 
-"@tarojs/taro-swan@2.2.4":
-  version "2.2.4"
-  resolved "https://registry.npm.taobao.org/@tarojs/taro-swan/download/@tarojs/taro-swan-2.2.4.tgz#132b8ec98e4f0f03dfa94fb02d15182e732da4a0"
-  integrity sha1-EyuOyY5PDwPfqU+wLRUYLnMtpKA=
+"@tarojs/taro-swan@2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro-swan/-/taro-swan-2.2.6.tgz#ecbf97fb50c02478fd007ac72c7838a222d77a91"
+  integrity sha512-uHuRk4YOGWX7m3f14HVSh69amxX02TD1f6o84oJTqqPAqW6ADzsYLCEYzYIcNlaQ1Dn8mP0W7FvNxFfQuYaAEw==
   dependencies:
-    "@tarojs/taro" "^2.2.4"
-    "@tarojs/utils" "^2.2.4"
+    "@tarojs/taro" "^2.2.6"
+    "@tarojs/utils" "^2.2.6"
     lodash "^4.17.10"
     prop-types "^15.6.1"
 
@@ -1351,12 +1351,19 @@
     lodash "^4.17.10"
     prop-types "^15.6.1"
 
-"@tarojs/taro@2.2.4", "@tarojs/taro@^2.2.4":
+"@tarojs/taro@2.2.4":
   version "2.2.4"
   resolved "https://registry.npm.taobao.org/@tarojs/taro/download/@tarojs/taro-2.2.4.tgz#8981d6be89d58d351f55951aed6619e09a8a243d"
   integrity sha1-iYHWvonVjTUfVZUa7WYZ4JqKJD0=
   dependencies:
     "@tarojs/utils" "^2.2.4"
+
+"@tarojs/taro@^2.2.4", "@tarojs/taro@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro/-/taro-2.2.6.tgz#777b9bcf7099cca2917f2972cd0dab2303e0a44b"
+  integrity sha512-YWemcFkdZNSCNGpEOyVdUySBHhL8UrEosSYJr07VL/oR52BckKKpTLzujTJd7KelAvQASO5JprCv8ILM19mgIA==
+  dependencies:
+    "@tarojs/utils" "^2.2.6"
 
 "@tarojs/transformer-wx@^2.2.4":
   version "2.2.4"
@@ -1389,10 +1396,10 @@
     prettier "^1.14.2"
     typescript "^3.2.2"
 
-"@tarojs/utils@^2.2.4":
-  version "2.2.4"
-  resolved "https://registry.npm.taobao.org/@tarojs/utils/download/@tarojs/utils-2.2.4.tgz#9a4b57b0fc5c9b850f96f97501d3b3442642466a"
-  integrity sha1-mktXsPxcm4UPlvl1AdOzRCZCRmo=
+"@tarojs/utils@^2.2.4", "@tarojs/utils@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@tarojs/utils/-/utils-2.2.6.tgz#0f92f1b7120ab056bcd54327e702d6576f213410"
+  integrity sha512-n2bkfRMeQ6aF6m9r6AO5apCFykQNAukNcWnCyogBkOC4O8+bXsC1dQ/eFRpcWT4KJb0YzNTCDYzfkido/PuYJA==
 
 "@tarojs/webpack-runner@2.2.4":
   version "2.2.4"
