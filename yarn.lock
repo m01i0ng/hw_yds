@@ -7242,10 +7242,10 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
-mp-colorui@^0.6.12:
-  version "0.6.13"
-  resolved "https://registry.npm.taobao.org/mp-colorui/download/mp-colorui-0.6.13.tgz#43f81212c377f697b796ec2baabd77d70fd7e2d3"
-  integrity sha1-Q/gSEsN39pe3luwrqr131w/X4tM=
+mp-colorui@^0.6.16:
+  version "0.6.16"
+  resolved "https://registry.yarnpkg.com/mp-colorui/-/mp-colorui-0.6.16.tgz#4c178d6e8bcc2aca97d7455f644a2b48053aeb6b"
+  integrity sha512-47Vl0aHbflyojEuon0vqlHznmspV20+gi27+HzQJJ2ojdL6EzZ6deCH0RKd9KJHh1LjUHku07SaCXtwb0XV/VA==
   dependencies:
     "@tarojs/async-await" "2.2.2"
     area-data "^5.0.6"
