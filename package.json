@@ -38,7 +38,7 @@
 		"@tarojs/taro-qq": "2.2.4",
 		"@tarojs/taro-quickapp": "2.2.4",
 		"@tarojs/taro-rn": "2.2.4",
-		"@tarojs/taro-swan": "2.2.4",
+		"@tarojs/taro-swan": "2.2.9",
 		"@tarojs/taro-tt": "2.2.4",
 		"@tarojs/taro-weapp": "2.2.4",
 		"babel-runtime": "^6.26.0",
