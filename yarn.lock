@@ -8815,15 +8815,15 @@ regenerate@^1.2.1, regenerate@^1.4.0:
   resolved "https://registry.npm.taobao.org/regenerate/download/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
   integrity sha1-SoVuxLVuQHfFV1icroXnpMiGmhE=
 
-regenerator-runtime@0.11.1, regenerator-runtime@^0.11.0, regenerator-runtime@^0.11.1:
+regenerator-runtime@0.13.6, regenerator-runtime@^0.13.4:
+  version "0.13.6"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.6.tgz#d236043c46ffab2968c1ef651803d8acdea8ed65"
+  integrity sha512-GmwlGiazQEbOwQWDdbbaP10i15pGtScYWLbMZuu+RKRz0cZ+g8IUONazBnaZqe7j1670IV1HgE4/8iy7CQPf4Q==
+
+regenerator-runtime@^0.11.0, regenerator-runtime@^0.11.1:
   version "0.11.1"
   resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
-
-regenerator-runtime@^0.13.4:
-  version "0.13.5"
-  resolved "https://registry.npm.taobao.org/regenerator-runtime/download/regenerator-runtime-0.13.5.tgz#d878a1d094b4306d10b9096484b33ebd55e26697"
-  integrity sha1-2Hih0JS0MG0QuQlkhLM+vVXiZpc=
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
