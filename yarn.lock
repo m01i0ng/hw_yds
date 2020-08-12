@@ -1129,10 +1129,10 @@
   resolved "https://registry.npm.taobao.org/@nodelib/fs.stat/download/@nodelib/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha1-K1o6s/kYzKSKjHVMCBaOPwPrphs=
 
-"@tarojs/async-await@2.2.2":
-  version "2.2.2"
-  resolved "https://registry.npm.taobao.org/@tarojs/async-await/download/@tarojs/async-await-2.2.2.tgz#b27d936c593ddca512e5a95955ecd57f7faca8d4"
-  integrity sha1-sn2TbFk93KUS5alZVezVf3+sqNQ=
+"@tarojs/async-await@2.2.13":
+  version "2.2.13"
+  resolved "https://registry.yarnpkg.com/@tarojs/async-await/-/async-await-2.2.13.tgz#002940951ad6f27eb215a0f497fb249ee6922540"
+  integrity sha512-6NzP/W81tspD+ryP1NvazXLsf/gdWRGh5e9RAjD6YIqOGByGhKur+th5uOCQDnbyTHNTpGX0xdDxEzkNCqvRSw==
   dependencies:
     promise-polyfill "^7.1.2"
     regenerator-runtime "^0.11.1"
@@ -7242,12 +7242,12 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
-mp-colorui@^0.6.12:
-  version "0.6.13"
-  resolved "https://registry.npm.taobao.org/mp-colorui/download/mp-colorui-0.6.13.tgz#43f81212c377f697b796ec2baabd77d70fd7e2d3"
-  integrity sha1-Q/gSEsN39pe3luwrqr131w/X4tM=
+mp-colorui@^0.6.19:
+  version "0.6.19"
+  resolved "https://registry.yarnpkg.com/mp-colorui/-/mp-colorui-0.6.19.tgz#c602d7ddec6b7d5d2b644eafbc5f03ea065bb57b"
+  integrity sha512-nS4nng6pAh12ML+R/qC3z0TSG+QNqwKRw5uxicM6WViXhI6mnd+CPu+JCGcnEuCvCBXJMf0NTR+BRcrPZsKNtw==
   dependencies:
-    "@tarojs/async-await" "2.2.2"
+    "@tarojs/async-await" "2.2.13"
     area-data "^5.0.6"
     dayjs "^1.8.17"
 
