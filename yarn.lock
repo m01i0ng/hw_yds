@@ -1298,12 +1298,12 @@
     lodash "^4.17.10"
     prop-types "^15.6.1"
 
-"@tarojs/taro-rn@2.2.4":
-  version "2.2.4"
-  resolved "https://registry.npm.taobao.org/@tarojs/taro-rn/download/@tarojs/taro-rn-2.2.4.tgz#e052ae82ff56fd387c78a9278e31b84876603428"
-  integrity sha1-4FKugv9W/Th8eKknjjG4SHZgNCg=
+"@tarojs/taro-rn@2.2.17":
+  version "2.2.17"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro-rn/-/taro-rn-2.2.17.tgz#514202e64b8036b20beaba5975088687a4ee82b6"
+  integrity sha512-+9jXOugxX7zGq/wOrnKr9XszjrNPr2pAXYdY4vecJLyJ1QglIh8NbUfSabsKa+4z5Q662elbwPzPWR+9gVnEBg==
   dependencies:
-    "@tarojs/taro" "^2.2.4"
+    "@tarojs/taro" "2.2.17"
     babel-preset-expo "^5.2.0"
     base64-js "^1.3.0"
     expo-av "^6.0.0"
@@ -1351,7 +1351,14 @@
     lodash "^4.17.10"
     prop-types "^15.6.1"
 
-"@tarojs/taro@2.2.4", "@tarojs/taro@^2.2.4":
+"@tarojs/taro@2.2.17", "@tarojs/taro@^2.2.4":
+  version "2.2.17"
+  resolved "https://registry.yarnpkg.com/@tarojs/taro/-/taro-2.2.17.tgz#78a95dc4e91ab4e4580205464ae684f32b612fa4"
+  integrity sha512-Mw41xfoPFwFcePkGXAxkH7J+2yWEViLUeM5Y3MvEjmPi+MWLQK5eMf+YLXKEf2GJ8pxf7H9GYr0FLG7s8qowJw==
+  dependencies:
+    "@tarojs/utils" "2.2.17"
+
+"@tarojs/taro@2.2.4":
   version "2.2.4"
   resolved "https://registry.npm.taobao.org/@tarojs/taro/download/@tarojs/taro-2.2.4.tgz#8981d6be89d58d351f55951aed6619e09a8a243d"
   integrity sha1-iYHWvonVjTUfVZUa7WYZ4JqKJD0=
@@ -1388,6 +1395,11 @@
     lodash "^4.17.5"
     prettier "^1.14.2"
     typescript "^3.2.2"
+
+"@tarojs/utils@2.2.17":
+  version "2.2.17"
+  resolved "https://registry.yarnpkg.com/@tarojs/utils/-/utils-2.2.17.tgz#d6e4b808e3d7f984e8e5671a33e6f02ad2042651"
+  integrity sha512-QMCcvicXKwEiF6+K5lwdF98dISRMrc/0pA3hQOPnnBrHSUSV19pD3tYC5kMcUxc7FqsQO7bS7WgWVXs+QECW2Q==
 
 "@tarojs/utils@^2.2.4":
   version "2.2.4"
